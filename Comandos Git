@@ -22,3 +22,11 @@ Inicializando o Git no repositório
 >> git commit -m "<mensagem para referenciar o commit>"   (commit ira criar um snapshot dos arquivos que estao no Stage e o -m(mensagem) serve para identificar oq foi realizado nesse commit)
 ****qdo realizo o commit se der um git status nao ira ter nada, pois qdo comito faz um snap e o arquivo vai para o ciclo unmodified.
 
+
+Trabalhando com Log do Git:
+>> git log	(lista os commit e historicos)
+>> git log --decorate	(lista os commit e historicos mais completo)
+>> git log --author="<nome_do_autor>"	(filtra os commit e historicos por autor)
+>> git shortlog	(lista por ordem alfabetica os autores e qtos commit realizaram)
+>> git shortlog -sn	(lista a qtde de commit que cada autor realizou)
+>> git log --graph	(lista de forma grafica o historico dos commit)
