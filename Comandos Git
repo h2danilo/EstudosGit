@@ -50,3 +50,16 @@ Reverter alterações:
 Ligando Repositorio Local a um remoto:
 >> git remote add origin https://github.com/h2danilo/EstudosGit.git	(vinculando uma conta repositorio Remoto, origin é um nome default para determinar que é a origem do repositorio remoto)
 >> git push -u origin master	(envia todos arquivos que tenho local para repositorio remoto, master (nome do branch local) / origin("apelido" repositorio remoto))
+
+
+***Quando desejar fazer a cópia de um repositorio que não é o proprietario, então, deve realizar um fork do projeto da pessoa, entao faz alteracoes e envia para o proprietario as  alteracoes para aprovacao.
+
+
+***Vantagens Branch:
+-poder modificar sem alterar o local principal(master)
+-facilmente desligavel
+-multiplas pessoas trabalhando
+-Evita conflitos
+
+
+
