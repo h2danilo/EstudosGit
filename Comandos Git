@@ -1,0 +1,14 @@
+Comandos Básicos Git
+========================
+
+Definindo configuraçoes Globais do repositório:
+>> git config --global user.name "Danilo"    (comando define usuario ao repositório)
+>> git config --global user.email "h2danilo@hotmail.com"  	(comando define email ao repositório)
+>> git config --global core.editor "code --wait" (comando define visual studio code como editor principal do Git)
+
+>> git config --list (lista as configuraçoes no repositório)
+
+>> git config user.name (lista qual usuario esta configurado no repositório)
+>> git config user.email (lista qual email esta configurado no repositório)
+
+>> git init	(inicializa o Git na pasta, fazer parte do ecossistema do git)
