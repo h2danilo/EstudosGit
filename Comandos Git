@@ -46,3 +46,7 @@ Reverter alterações:
 >> git reset --mixed <chave_do_commit_para_qual_deseja_voltar>	 (se ja realizou o commit mais deseja voltar estado anterior/ **mixed volta ao estado anterior porem o arquivo volta no modified, se realmente desejar cancelar alteracao realiza git checkout) 
 >> git reset --hard <chave_do_commit_para_qual_deseja_voltar>	(se ja realizou o commit mais deseja voltar estado anterior/ **hard deleta td o commit, nao recomendavel utilizar esse comando)
  
+ 
+Ligando Repositorio Local a um remoto:
+>> git remote add origin https://github.com/h2danilo/EstudosGit.git	(vinculando uma conta repositorio Remoto, origin é um nome default para determinar que é a origem do repositorio remoto)
+>> git push -u origin master	(envia todos arquivos que tenho local para repositorio remoto, master (nome do branch local) / origin("apelido" repositorio remoto))
