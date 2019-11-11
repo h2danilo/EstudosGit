@@ -21,6 +21,7 @@ Inicializando o Git no repositório
 >> git add .	(adiciona todos arquivo untracked(que nao estao ainda no git) no repositorio)
 >> git commit -m "<mensagem para referenciar o commit>"   (commit ira criar um snapshot dos arquivos que estao no Stage e o -m(mensagem) serve para identificar oq foi realizado nesse commit)
 ****qdo realizo o commit se der um git status nao ira ter nada, pois qdo comito faz um snap e o arquivo vai para o ciclo unmodified.
+>> git commit -am "<mensagem para referenciar o commit>"	(para commitar direto sem precisar fazer o git add / **desde que o arquivo ja exista, se for arquivo novo essa opcao nao da certo)
 
 
 Trabalhando com Log do Git:
@@ -35,4 +36,6 @@ Trabalhando com Log do Git:
 
 
 Visualizando o DIFF:
+>> git diff	(para visualizar oq foi modificado antes de fazer o gitt add e commitar //bom usar o git diff antes do commit para dar uma revisado do que foi feito.)
+>> git diff --name-only (visualizar o nome dos arquivos que foram modificados antes de comitar)
 
