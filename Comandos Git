@@ -39,3 +39,10 @@ Visualizando o DIFF:
 >> git diff	(para visualizar oq foi modificado antes de fazer o gitt add e commitar //bom usar o git diff antes do commit para dar uma revisado do que foi feito.)
 >> git diff --name-only (visualizar o nome dos arquivos que foram modificados antes de comitar)
 
+Reverter alterações:
+>> git checkout <nome_do_arquivo>	(reverter uma alteracao realizada antes de commitar)
+>> git reset HEAD <nome_do_arquivo>	(se ja tiver feito git add, arquivo ja estiver no ciclo Stage e desejar cancelar as alterações / **qdo executa esse comando arquivo volta para o ciclo modified entao pode rodar o comando git checkout <nome_do_arquivo> para cancelar as alteracoes)
+>> git reset --soft <chave_do_commit_para_qual_deseja_voltar>	(se ja realizou o commit mais deseja voltar estado anterior/ **soft volta ao estado anterior porem o arquivo volta no ciclo stage, pronto para commitar se realmente desejar cancelar alteracao realiza comandos acima) 
+>> git reset --mixed <chave_do_commit_para_qual_deseja_voltar>	 (se ja realizou o commit mais deseja voltar estado anterior/ **mixed volta ao estado anterior porem o arquivo volta no modified, se realmente desejar cancelar alteracao realiza git checkout) 
+>> git reset --hard <chave_do_commit_para_qual_deseja_voltar>	(se ja realizou o commit mais deseja voltar estado anterior/ **hard deleta td o commit, nao recomendavel utilizar esse comando)
+ 
