@@ -30,3 +30,9 @@ Trabalhando com Log do Git:
 >> git shortlog	(lista por ordem alfabetica os autores e qtos commit realizaram)
 >> git shortlog -sn	(lista a qtde de commit que cada autor realizou)
 >> git log --graph	(lista de forma grafica o historico dos commit)
+
+>> git show <chave_do_commit>	(lista oq foi realizado no commit desejado)
+
+
+Visualizando o DIFF:
+
